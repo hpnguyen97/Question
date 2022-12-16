@@ -1,7 +1,7 @@
 var barIcon = document.querySelector('.sidebar__icon')
 var sidebar = document.querySelector('.sidebar')
 var closeIcon = document.querySelector('.sidebar__close__icon')
-var sidebarMenu = document.querySelectorAll('.sidebar ul li')
+var sidebarMenu = document.querySelectorAll('.sidebar__menu__item')
 
 barIcon.addEventListener('click', function() {
     sidebar.classList.add('active');
